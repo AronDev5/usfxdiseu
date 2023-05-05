@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --max_old_space_size=2048",
     "dev": "vite --port 8000",
-    "start": "npx http-server -P http://127.0.0.1./dist",
+    "start": "npx http-server -P http://127.0.0.1:${PORT}./dist",
     "build": "run-p type-check build-only",
     "preview": "vite preview --port 4173",
     "build-only": "vite build",

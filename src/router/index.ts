@@ -33,6 +33,22 @@ const router = createRouter({
           path: "",
           component: () => import("../components/test/loginTest.vue"),
         },
+        {
+          path: "/bienvenida",
+          component: () => import("../components/test/bienvenida.vue"),
+        },
+        {
+          path: "/test1",
+          component: () => import("../components/test/test1.vue"),
+        },
+        {
+          path: "/resultado",
+          component: () => import("../components/test/resol1.vue"),
+        },
+        {
+          path: "/test2",
+          component: () => import("../components/test/test2.vue"),
+        },
       ],
     },
 

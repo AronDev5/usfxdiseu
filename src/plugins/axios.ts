@@ -10,6 +10,9 @@ axios.interceptors.request.use(config => {
   if (config.headers) {
     config.headers["Content-type"] = "application/json";
     config.headers["Authorization"] = "Bearer " + authStore.token;
+    config.headers["Access-Control-Allow-Origin"] = "*";
+    config.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS";
+    config.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization";
   }
   return config;
 });

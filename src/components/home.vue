@@ -11,6 +11,7 @@ const ENDPOINT = props.ENDPOINT_API;
   <div class="page-bg"><!-- No colocar contenido --></div>
     <div id="sesion2" class="container-fluid mx-auto p-10">
       <div class="col-auto text-center">
+      <H2>ACTUALIZADO 222</H2>
         <div class="container">
           <div class="title col-sm-12 col-md-12 col-lg-12">
             <div class="row">
